@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ONG Esperança Viva</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>ONG <span>Esperança Viva</span></h1>
+    <p class="slogan">Transformando vidas com solidariedade</p>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="projetos.html">Projetos</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Bem-vindo à ONG Esperança Viva</h2>
+      <p>Atuamos desde 2010 em comunidades vulneráveis com foco em educação, saúde e cidadania.</p>
+    </section>
+
+    <section class="formulario">
+      <h2>Entre em Contato</h2>
+      <form id="formContato">
+        <label>Nome:</label>
+        <input type="text" name="nome" required />
+
+        <label>E-mail:</label>
+        <input type="email" name="email[]" required />
+        <div id="maisEmails"></div>
+        <button type="button" class="botao-secundario" onclick="adicionarEmail()">Adicionar outro e-mail</button>
+
+        <label>Mensagem:</label>
+        <textarea name="mensagem" required></textarea>
+
+        <button type="submit" class="botao">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>📧 contato@ongesperancaviva.org | 📞 (11) 99999-9999</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

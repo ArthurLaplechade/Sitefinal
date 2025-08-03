@@ -20,6 +20,7 @@ header:hover {
 header h1 span {
   color: #ffe082;
   transition: color 0.4s;
+  box-shadow: 5px 3px 7px 1px aquamarine;
 }
 
 header:hover h1 span {
@@ -55,6 +56,7 @@ section {
 h2 {
   color: #00796b;
   transition: transform 0.3s;
+  box-shadow: 5px 3px 7px 1px aquamarine;
 }
 
 h2:hover {
